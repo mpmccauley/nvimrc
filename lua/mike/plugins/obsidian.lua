@@ -17,8 +17,8 @@ return {
   opts = {
     workspaces = {
       {
-        name = "flux",
-        path = "/mnt/c/vaults/Flux",
+        name = "fluxc",
+        path = "~/vaults/fluxc",
       },
     },
   },
