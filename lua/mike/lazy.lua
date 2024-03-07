@@ -11,6 +11,6 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({ { import = "mike.plugins" } })
+require("lazy").setup({ { import = "mike.plugins" }, { import = "mike.plugins.lsp"} })
 require('telescope').load_extension('fzf')
 
